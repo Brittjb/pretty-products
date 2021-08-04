@@ -1,1 +1,74 @@
-main.css
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Karma, serif;
+  font-family: Oswald, sans-serif;
+  font-size: 1.4rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 70%;
+}
+
+body {
+  margin: .75rem;
+  margin-right: 4rem;
+  background-color: #fff;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75rem;
+  margin: 0;
+  margin-bottom: .5rem;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #6f00e7;
+  font-weight: bold;
+}
+
+li {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 3px;
+  border-color: #987ffa;
+  padding: .8rem;
+  align-items: center;
+}
+
+.icons {
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: 6.5rem 4rem 1.5rem 1.5rem;
+  gap: .5rem;
+}
+
+h3 {
+  margin-bottom: 0;
+  background-color: #6f00e7;
+  color: white;
+  border-radius: 3em;
+  font-size: .75rem;
+  padding: .5em 1rem;
+  text-align: right;
+}
+
+p {
+  font-family: Karma, serif;
+  margin: 0 .5rem;
+  text-align: center;
+  margin-bottom: .25rem;
+}
